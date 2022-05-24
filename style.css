@@ -5,23 +5,23 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.aaa {
+.main-banner {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.aaa img {
+.main-banner img {
   width: 100%;
 }
 
-.aaa .more_inf {
+.main-banner .more_inf {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-  .aaa {
+  .main-banner {
     text-align: center;
   }
 }
@@ -161,11 +161,11 @@ li input[type=text] {
   display: none;
 }
 
-.editMode input[type=text] {
+.edit-mode input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-.editMode label {
+.edit-mode label {
   display: none;
 }
